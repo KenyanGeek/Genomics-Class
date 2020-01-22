@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1579716220370.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E487A2A1",
+    "lastKnownWriteTime" : 1579716458,
+    "last_content_update" : 1579716458032,
+    "path" : "~/Desktop/Spring 2020/Genomics Class/genomic notebook.Rmd",
+    "project_path" : "genomic notebook.Rmd",
+    "properties" : {
+        "cursorPosition" : "219,0",
+        "scrollLine" : "195"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
