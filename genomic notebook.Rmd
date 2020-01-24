@@ -231,6 +231,10 @@ This is the day that we setup the unix good stuff!
 ### Entry 18: 2020-01-24, Friday.   
 
 
+**Todays activities**
+
+- I was able to go through the whole tutorial and exchange files from the server to my local computer and vice versa
+- I noticed that the scripts and results folders weren't going to github until i realized that github doesn't upload empty folder - so yeah i learnt something there.
 
 ------
 <div id='id-section19'/>   
