@@ -255,7 +255,48 @@ This is the day that we setup the unix good stuff!
 
 ### Entry 21: 2020-01-29, Wednesday.   
 
+- Here we learnt the usefulness of having md instead of rmd to allow for github to render your md files
+- Also i am going to attempt to pretiffy my mac terminal
+- We have a few objectives to cover today
+- So we are working with Red Spruce - preference is for cool moist landscapes - in atlantic canada, as you move further south you find it in higher elevations. As you go futher south it forms these sky highlands because its looking for the same climate. 
+- Interested in trailing edge populations - because of glacial retreat 20,000 years in NE area of the US.
+- Steve's grant is to study the genomic bases of adaptation, where these alleles are located, are there specific alleles we need to conserve because unassisted they will be locally extinct.
+- Other motivation: Large and active community that is interested in spruce conservation - have planted out 900,000 spruce trees in areas of low abundance
+- Can we help inform the partners to see are there specific sources that will maximize genetic diversity
+- Can we look for populations that are mostly climate adapted based on analysis of which region of the genome is climate adpated
 
+
+
+Design
+
+- In 2017, with big sling shots 324 used these to get genome wide DNA
+- in the edge region 310 mother trees per population
+- For the exome capture sequencing designed bases for different, work on a closely related species had been done. Root, needles, immature con, reduced bias from studyong leaf tissue only. Deesigned 80,000 probes - used to capture coding version of the genome
+- Within or overlapping exomes
+- 35,000 - 40,000 genes
+- Library prep - Fragmentation, cleaning it up, barcoding adaptors and then hybridize beads that have the probe - turn that into squening library. Sequenced on high seq - 
+
+
+
+The pipeline
+
+- Look at the reads .gz which is a form of compression
+- Visualize - Fast QC - summarizes how well things went
+- Trimmed the fastq files - use trimmomatic
+- Visualize the post trimming with Fast QC
+- Map trimmed files or align those reads to the reference genome - will use bwa - fast and powerful for aligning sequences
+- Post processing of our alignement - 2 tools - samtools/sambamba - here we are converting our alignment into a binary form that is more compressed for our downstream operations (.sam)/.bam
+- Get read of duplicate read and calculate some stats
+
+
+
+Peeking into the data:
+
+- Phred score is how you determine the quality of your base , what's the probability that the machine misrreading the code
+- Data allocated for me to peek at: **XCS**
+
+- Redirect these content to our local folders but access them form public places
+- I also learned a cool way to monitor what's happening on the server using **top**
 
 ------
 <div id='id-section22'/>   
