@@ -331,7 +331,15 @@ Peeking into the data:
 
 ### Entry 26: 2020-02-05, Wednesday.   
 
+Today we learnt several things including
 
+- How to visualize trimmed reads
+
+- We started mapping to the reference genome found here: http://congenie.org/
+
+- We also did some scripting by following the instructions here:
+
+  https://pespenilab.github.io/Ecological-Genomics/2020-02-05_PopGenomics_Day2.html
 
 ------
 <div id='id-section27'/>   
