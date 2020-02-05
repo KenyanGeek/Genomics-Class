@@ -6,7 +6,7 @@
 myrepo="/users/h/c/hchege/Genomics-Class"
 
 # My population:
-mypop="XCS"
+mypop="XCS_01"
 
 
 # Directory to our cleaned and paired reads
