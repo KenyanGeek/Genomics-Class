@@ -8,7 +8,7 @@
 for f in ${output}/BWA/${mypop}*.sam
 
 do
-    out = ${f/.sam/}
+    out=${f/.sam/}
     sambamba-0.7.1-linux-static view -S --format=bam ${f} -o ${out}.bam
     samtools sort ${out}.bam -o ${out}.sorted.bam
 done
