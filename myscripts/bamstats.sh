@@ -18,3 +18,10 @@ for file in ${output}/BWA/${mypop}*sorted.rmdup.bam
     echo ${name} >> ${myrepo}/myresults/${mypop}.names.txt
     samtools flagstat ${file} | awk 'NR>=6&&NR<=12 {print $1}' | column -x
   done >> ${myrepo}/myresults/${mypop}.flagstats.txt
+
+# Calculate depth of coverage from our bam files
+
+for file in ${output}/BWA/${mypop}*sorted.rmdup.bam
+  do
+   samtools depth ${file} | awk '{sum+=$3} END {print sum/NR}'
+ done >> ${myrepo}/myresults/${mypop}.coverage.txt
