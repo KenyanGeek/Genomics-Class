@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# set repo
+
+myrepo="/users/h/c/hchege/Genomics-Class"
+
+mypop="XCS"
+
+output="/data/project_data/RS_ExomeSeq/mapping"
+
+echo "Num.reads R1 R2 Paired MateMapped Singletons MateMappedDiffChr" >${myrepo}/myresults/${mypop}.flagstats.txt
+
+for file in ${output}/BWA/${mypop}*sorted.rmdup.bam
+
+  do
+    f=${file/.sorted.rmdup.bam/}
+    name=`basename ${f}`
+    echo ${name} >> ${myrepo}/myresults/${mypop}.names.txt
+    samtools flagstat ${file} | awk 'NR>=6&&NR<=12 {print $1}' | column -x
+  done >> ${myrepo}/myresults/${mypop}.flagstats.txt
