@@ -374,7 +374,19 @@ Today we learnt several things including
 
 ### Entry 31: 2020-02-12, Wednesday.   
 
+Today we learnt a couple of things:
 
+- First we had a review on the progress of mapping to the reference genome
+
+- Next we calculated the mapping statistics to access the quality of our the results that we are getting
+
+- Next we used a function in samtools to visualize the sequence alignment files
+
+- We then were introduced to the use of genotype likelihoods for analyzing diversity in low coverage sequences
+
+- We then used the ANGST program to calculate the diversity stats,
+
+  we will do the others PCA ans FSTs maybe next Wednesday.
 
 ------
 <div id='id-section32'/>   
