@@ -421,7 +421,9 @@ Today we learnt a couple of things:
 
 ### Entry 36: 2020-02-19, Wednesday.   
 
+Today we calculated our Tajima's D from our data out thetas and pis and made some plots.
 
+- One fun thing i learnt today is to use cyberduck to move files from the server to my local computer
 
 ------
 <div id='id-section37'/>   
