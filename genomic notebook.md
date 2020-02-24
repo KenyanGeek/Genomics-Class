@@ -443,6 +443,78 @@ Today we calculated our Tajima's D from our data out thetas and pis and made som
 <div id='id-section39'/>   
 
 ### Entry 39: 2020-02-24, Monday.   
+Transcriptomics
+
+Ecological Genomics - Populational Genomics, Molecular Evolution, Ecological interfaces and Next Generation Sequences
+
+Transcriptomics - Experimentally hold/control environmental conditions to be constant to reveal genetically controlled differences of phenotypes at the molecular level at the expression level
+
+Phenotype - Characteristic of organism that can be observed - Examples: color, diseases or not (can be at the cellular and molecular level). Can be observed at a number of different scales. 
+
+**Central Dogma of Molecular Biology - DNA - RNA - Protein- Phenotype**
+
+1. Transcription occurs in the transition between DNA and RNA
+2. Translation occurs in the transition between RNA to Protein
+
+Signature on DNA indicates the phenotypes
+
+Natural selection acts on the phenotype, an organism is going to be targeted by a pathogen depending on its phenotype
+
+- Transcriptomics measures transcription markers under controlled conditions 
+
+- Some of the ways include:
+
+  - Mutation on coding areas
+  - Splice site variation
+  - Promoter, enhancers affecting expression level in the cell
+  - Cell/Tissue type of expression
+  - Conditions under which the gene is expressed
+  - Post translational modifications-phospholation 
+  - Epigenetic modifications
+
+- Why use RNA? It gives you an active picture of what might be expressed, its more global unbiased - its more harder and expensive than proteomics. Illumina has helped us do this. You can assemble a denovo transcriptome. 
+
+- Phenotype = Genotype + Environmental Context, you can experimentally induce your phenotype of interest. Its another way to get the genetic/ molecular underpinnings of a phenotype.
+
+  Factors
+
+  - What's your question/hypothesis will affect all these choices below//You need to have replication.
+
+  - Common Garden
+
+  - Treatment/Conditions
+
+  - Populations
+
+  - Tissue or Cell
+
+  - Life history stage
+
+  - Trans generational environment
+
+  - Sexual dimorphisms and reproductive stage
+
+    
+
+    **Workflow**
+
+    - Careful experimentation design
+      - Consider our questions and hypothesis - broad, apriori 
+      - All factors to consider
+    - Actual Experiment
+    - Sample your tissues and individuals
+    - Save your RNA - labile 
+    - Extract , prep, sequence - Whole mRNA
+    - Process and analyze our sequence data - check quality - clean it - check quality again
+    - Map back to our reference and extract count data, normalize the variation amongst samples to get a matrix
+    - Intergrate SNPs, Tajima's D, Epigenetic data, Proteomics, with environmental data
+
+    
+
+
+
+
+
 
 
 
