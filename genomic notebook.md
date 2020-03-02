@@ -551,6 +551,19 @@ Natural selection acts on the phenotype, an organism is going to be targeted by 
 
 ### Entry 44: 2020-03-02, Monday.   
 
+**Differential Gene Expression**
+
+- Measures the transcript abudance between groups i.e. the specific genes that are changing.
+- Pipeline - Sample prep - RNA Extraction - Library Prep - Sequencing - Bioinformatics Pipeline - Quality Control - Mapping Reads onto the genome and then counting.
+- Normalization
+- Differential Expression
+- Visualization
+- Enrichment Analysis
+
+Here is a link to Thomas's notes for the class:
+
+[Differential Gene Expression Notes ](https://tsoleary.github.io/eco_genomics/deg_info_update.html)
+
 
 
 ------
