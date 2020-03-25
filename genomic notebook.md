@@ -693,6 +693,7 @@ We then switched to R and used tximport to create a counts matrix to be able to 
 <div id='id-section61'/>   
 
 ### Entry 61: 2020-03-25, Wednesday.   
+#Epigenomics
 
 Today we delved deep into epigenomics:
 
@@ -738,6 +739,9 @@ This is a way of quantifying methylation. It allows us to measure the level of m
 - Then adaptors were put on there
 - Then this was sequenced
 
+Here is a link to the learning resources:
+
+[Epigenomics Notes by Reid ](https://pespenilab.github.io/Ecological-Genomics/2020-03-25_Epigenetics_Day_1.html)
 
 ------
 <div id='id-section62'/>   
