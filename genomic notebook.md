@@ -648,6 +648,17 @@ Here is a link to Thomas's notes for the class:
 
 ### Entry 56: 2020-03-18, Wednesday.   
 
+This day we worked with RNA-seq data that we had previously being playing around with
+
+# Improve mapping reads percent
+
+- The first step was to improve the mapping rate 
+it was noted that the low mapping rates >2% may have been due to the reference genome including only the coding regions. While when working with RNA-seq data most of the sequencing efforts captures the untranslated region. We therefore concatenated the coding and non-coding regions of the reference genome and mapped with this new reference using salmon.
+
+This showed a dramatic improvement of mapping rates going to a mean of 52%.
+
+We then switched to R and used tximport to create a counts matrix to be able to do differential gene expression analysis using DESeq2.
+
 
 
 ------
@@ -683,6 +694,49 @@ Here is a link to Thomas's notes for the class:
 
 ### Entry 61: 2020-03-25, Wednesday.   
 
+Today we delved deep into epigenomics:
+
+What is Epigenomics? This is the change in phenotype that translates to change in DNA sequence in response to external stimuli. It is not necessarily heritable.
+
+This interaction is complex, and is typically annotated as a relationship of genetic, environmental and a combination of both factors interplaying with each other. 
+
+# Mechanism
+Several mechanism can be at play including:
+- Phosphorylation - on DNA sequence itself or even on proteins
+- non coding RNA's
+- Small interfering RNAs
+- Histone modifications
+- DNA methylation - what we will focus on going forward - although the universality of this is in question because it has only being studied in model organisms such as yeast and drosophila.
+
+# Methylation
+
+Occurs when a cytosine is methylated to form a 5-methyl cytosine that influences a lot of processes. It can leas to mutation in the genome when the DNA is repaired back to Uracil. But in the case of methylated cytosines they are changed to Thyamine.
+
+#Consequences
+
+The consequences of this is: - High methylation might result in repression in expression of genes. 
+- Might inhibit binding of transcription factors
+- Might change chromatin structuree
+- Might change the gene body
+
+#Otherobservations
+
+Methylation differs between species and plants have been shown to have heritable methylation factors
+
+# Bisulfite sequencing
+
+This is a way of quantifying methylation. It allows us to measure the level of methylation based on the earlier Uracil - Thyamine conversion.
+
+#Copepod Experiment
+
+- There were 4 treatments - A control, High C02, High Temp and a mixture of both
+- There were 4 replicates per treatment and was repeated for 25 generations.
+- The AA(Treatment), F00(Generation), and 1(Replicate).
+- Focussed on CCGG sites using RadSeq
+- Restriction enzymes were used to cut the DNA
+- On the overhang missing bases were added
+- Then adaptors were put on there
+- Then this was sequenced
 
 
 ------
