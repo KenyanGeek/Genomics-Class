@@ -693,7 +693,7 @@ We then switched to R and used tximport to create a counts matrix to be able to 
 <div id='id-section61'/>   
 
 ### Entry 61: 2020-03-25, Wednesday.   
-#Epigenomics
+# Epigenomics
 
 Today we delved deep into epigenomics:
 
